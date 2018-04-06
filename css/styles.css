@@ -1,0 +1,213 @@
+
+/*  Cuerpo */
+
+body{
+	background: #fff;
+	color: #999;
+	list-style: none;
+}
+
+ul  li{
+	list-style: none;
+}
+/*******************************************************
+GENERAL
+********************************************************/
+body{
+	font-family: 'Open Sans' , sans-serif;
+}
+a{
+	text-decoration: none;
+}
+#wrapper{
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0.5%;
+
+
+}
+
+/*******************************************************
+HEADING	
+********************************************************/
+header{
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+#logo{
+	text-align: center;
+	margin: 0;
+}
+h1{
+	font-family: 'Merriweather', serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+h2{
+	font-size: 1em;
+	margin: -5px 0 0 ;
+	font-weight: normal;
+}
+
+img{
+	max-width: 100%;
+}
+h3{
+	margin:  0 0 1em 0;
+}
+
+/*******************************************************
+COLORS
+********************************************************/
+
+/*  LInks */
+a{
+	color: #4db8ff;
+}
+
+/* Emcabezado */
+header{
+	background: #80ccff;
+	border-color: #33adff;
+}
+
+/* Texto del logo */
+
+h1, h2{
+	color: #fff;
+	text-align: left;
+/* Links de Navegación */
+
+}
+nav{
+	background: #33adff;
+
+}
+nav a, nav a:visited{
+	color: #fff;
+}
+
+/* Links visitados */
+
+nav a.selected, a:hover{
+	color: #008689
+}
+
+
+/*******************************************************
+Navigation
+********************************************************/
+
+nav{
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+nav ul{
+	font-weight: 700;
+	padding: 10px ;
+	margin: 0px 0px 0 0;
+}
+nav ul li{
+	margin: 10px;
+}
+
+
+/*******************************************************
+Página: Portfolio;
+********************************************************/
+
+#gallery{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li{
+	float: left;
+	margin:2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li a p{
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+}
+
+
+/*******************************************************
+Página: Acerca de;
+********************************************************/
+
+.profile-photo{
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 7%;
+}
+
+/*******************************************************
+Página: CONTACTO ;
+********************************************************/
+
+.contact-info{
+	list-style: none;
+	padding: 0;
+	font-size:.9em;
+	margin:0;
+}
+
+.contact-info a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding: 0 0 0 30px;
+	background-size: 20px 20px;
+	margin: 0 0 10;
+}
+.contact-info li.phone a {
+	background-image: url("../img/phone.png");
+}
+.contact-info li.email a {
+	background-image: url("../img/mail.png");
+}
+.contact-info li.twitter a {
+	background-image: url("../img/twitter.jpg");
+}
+
+
+
+/*******************************************************
+FOOTER
+********************************************************/
+
+footer{
+	font-size: 1em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+	clear: both;
+}
+.social-icon{
+	width: 40px;
+	height: 40px;
+	margin:0;
+}
